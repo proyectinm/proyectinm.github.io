@@ -40,6 +40,10 @@ header .side-right nav a {
   color: #fadbd1; /*cambiar cuando pasen la paleta de colores*/
 }
 
+header .side-left {
+  color: #fadbd1; /*cambiar cuando pasen la paleta de colores*/
+}
+
 main .bar-top {
   position: fixed;
   z-index: 99999;
@@ -55,7 +59,7 @@ main .bar-top {
   position: relative;
   width: 100%;
   height: 100vh; 
-  background-image: url('image.jpg'); 
+  background-image: url("image.jpg"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
