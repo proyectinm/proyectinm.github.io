@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.css">
   <link rel="stylesheet" href="styles.css">
   <title>IETC LA INMACULADA</title>
 </head>
@@ -22,7 +23,20 @@
           <a class="more overline" href="">Más</a>
         </nav>
       </div>
+        <button class="hamburger panel-btn hamburger-container hamburger--collapse" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
     </header>
+    <aside class="panel">
+      <nav class="menu">
+          <a href="#inicio">Página de inicio</a>
+          <a href="#">Sobre nosotros</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#">Más</a>
+      </nav>
+  </aside>
     <section class="first-part" id="inicio">
       <div class="overlay"></div>
       <div class="texts-center">
@@ -60,5 +74,5 @@
     </section>
   </main>
 </body>
-  <script type="module" src="app.js"></script>
+  <script type="module" src="./index.js"></script>
 </html>
